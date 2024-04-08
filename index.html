@@ -6,6 +6,32 @@
     </head>
 
     <body>
+        <main>
+            <form name="baddies">
+                <label for="baddie">Please Select Type of Baddie: </label>
+                <select name="baddie">
+                    <option value="goombas">Goombas</option>
+                    <option value="bob-ombs">Bob-ombs</option>
+                    <option value="cheep-cheeps">Cheep-cheeps</option>
+                </select>
+
+                <label for="quantity">Please Enter Number of Baddie Caught: </label>
+                <input type="number" name="quantity" min="0" />
+
+                <button type="submit">Submit Number of Baddies Caught</button>
+            </form>
+            <section id="baddies-caught">
+                <div id="list-of-baddies">
+                    <h2>List of Baddies Caught</h2>
+                    <ul>
+                        <li>None</li>
+                    </ul>
+                </div>
+                <p>Total Price of Baddies Caught: <span id="price">0</span></p>
+            </section>
+        </main>
+
+        <footer></footer>
 
         <script src="index.js"></script>
     </body>

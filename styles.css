@@ -1,0 +1,44 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+    border: 3px solid black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid blue;
+}
+
+form label {
+    margin-top: 3%;
+}
+
+form select, input {
+    width: 40%;
+    font-size: 14px;
+    margin-top: 3%;
+}
+
+
+button {
+    font-size: 14px;
+    font-weight: bold;
+    width: 60%;
+    margin-top: 8px;
+    background-color: silver;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#baddies-caught {
+    border: 2px solid green;
+    margin-top: 2%;
+}
