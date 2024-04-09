@@ -15,12 +15,9 @@
                     <option value="cheep-cheeps">Cheep-cheeps</option>
                 </select>
 
-                <label for="price">Price of Baddie: </label>
-                <select name="price">
-                    <option value="5">5 Coins</option>
-                    <option value="7">7 Coins</option>
-                    <option value="11">11 Coins</option>
-                </select>
+                <div id="price">
+                    <p>Price of Baddie: <span id="num">5</span> Coins</p>
+                </div>
 
                 <label for="quantity">Please Enter Number of Baddie(s) Caught: </label>
                 <input type="number" name="quantity" min="0" />
@@ -29,7 +26,7 @@
                 <button type="reset" id="reset-button">Clear</button>
             </form>
 
-            <p>Total Price of Baddies Caught: <span id="price">0</span></p>
+            <p>Total Price of Baddies Caught: <span id="total">0</span></p>
         </main>
 
         <footer></footer>
