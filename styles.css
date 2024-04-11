@@ -45,6 +45,14 @@ button:hover {
     cursor: pointer;
 }
 
+#submit-button:hover {
+    background-color: green;
+}
+
+#reset-button:hover {
+    background-color: darkred;
+}
+
 #price {
     display: flex;
     flex-direction: column;
