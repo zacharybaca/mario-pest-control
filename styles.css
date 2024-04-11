@@ -89,3 +89,11 @@ footer {
     justify-content: space-around;
     background-color: yellow;
 }
+
+p {
+    font-size: 20px;
+}
+
+#total {
+    font-size: 20px;
+}
