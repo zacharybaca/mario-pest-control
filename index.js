@@ -4,6 +4,7 @@ const clearButton = document.getElementById('reset-button');
 const form = document.baddies;
 const priceField = document.getElementById('price');
 let price = document.getElementById('num');
+let total = document.getElementById('total');
 let runningTotal = 0;
 
 let typeOfBaddie = form.baddie;
@@ -52,6 +53,7 @@ submitButton.addEventListener('click', (e) => {
     let totalPrice = priceOfBaddie * amountCaught;
     runningTotal += totalPrice;
     console.log('tot:', runningTotal);
+    total.innerText = runningTotal;
 
     // Add Baddie Name/Type to Object
     // Add Baddie Image to Object
@@ -68,6 +70,9 @@ clearButton.addEventListener('click', (e) => {
 
     // Reset Input Caught Field
     form.quantity.value = '';
+
+    // Clear Total
+    total.innerText = '';
 
     console.log('running: ', runningTotal);
 })
