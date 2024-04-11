@@ -45,6 +45,12 @@ submitButton.addEventListener('click', (e) => {
     // Prevent Page Reload
     e.preventDefault();
 
+    // If Input Field Is Blank
+    // Throw An Alert Box
+    if (!form.quantity.value) {
+        alert("Please Enter a Number in the Input Box");
+    }
+
     // Get Price of Baddie
     // Multiply Price By Quantity Input Field Value
     // Update Total Price of Baddies Caught
