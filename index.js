@@ -52,7 +52,6 @@ submitButton.addEventListener('click', (e) => {
     let amountCaught = form.quantity.value;
     let totalPrice = priceOfBaddie * amountCaught;
     runningTotal += totalPrice;
-    console.log('tot:', runningTotal);
     total.innerText = runningTotal;
 
     // Add Baddie Name/Type to Object
@@ -73,6 +72,4 @@ clearButton.addEventListener('click', (e) => {
 
     // Clear Total
     total.innerText = '';
-
-    console.log('running: ', runningTotal);
-})
+});
