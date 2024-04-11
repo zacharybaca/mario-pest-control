@@ -77,5 +77,5 @@ clearButton.addEventListener('click', (e) => {
     form.quantity.value = '';
 
     // Clear Total
-    total.innerText = '';
+    total.innerText = '0';
 });
