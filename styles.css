@@ -1,12 +1,16 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Pixelify+Sans:wght@400..700&display=swap');
+
+
+
 main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 100px;
-    border: 3px solid black;
     height: 100vh;
+    background-color: blue;
 }
 
 form {
@@ -15,7 +19,7 @@ form {
     align-items: center;
     padding: 10px;
     font-size: 18px;
-    border: 2px solid blue;
+    background-color: brown;
 }
 
 form label {
@@ -51,4 +55,29 @@ button:hover {
 img {
     width: 35%;
     height: 20vh;
+}
+
+#title-header {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+}
+
+#title-header header {
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 45px;
+}
+
+select, p, label, button, h6 {
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+span {
+    font-family:'Courier New', Courier, monospace;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: yellow;
 }
