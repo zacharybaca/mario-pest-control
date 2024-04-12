@@ -9,8 +9,10 @@ main {
     justify-content: center;
     align-items: center;
     padding: 100px;
-    height: 55vh;
-    background-color: blue;
+    height: 60vh;
+    background-image: url('/assets/mario-background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 form {
@@ -88,6 +90,7 @@ footer {
     display: flex;
     justify-content: space-around;
     background-color: yellow;
+    font-size: 20px;
 }
 
 p {

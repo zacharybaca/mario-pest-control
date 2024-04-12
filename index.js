@@ -54,17 +54,13 @@ submitButton.addEventListener('click', (e) => {
     // Get Price of Baddie
     // Multiply Price By Quantity Input Field Value
     // Update Total Price of Baddies Caught
+    // Clear Input Field on Submit
     let priceOfBaddie = Number(document.getElementById('num').innerText);
     let amountCaught = form.quantity.value;
     let totalPrice = priceOfBaddie * amountCaught;
     runningTotal += totalPrice;
     total.innerText = runningTotal;
-
-    // Add Baddie Name/Type to Object
-    // Add Baddie Image to Object
-    // Add Price of Baddie to Object
-    // Add Amount Caught of Baddie to Object
-    // Push Object to Array
+    form.quantity.value = '';
 });
 
 clearButton.addEventListener('click', (e) => {
